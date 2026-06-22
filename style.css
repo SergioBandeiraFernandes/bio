@@ -88,28 +88,14 @@ span {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: transparent;
-    color: rgb(50, 119, 142); 
+    color: green; 
 }
 
-.link {
+.link , .formulario , .label{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: transparent;
-    color: rgb(50, 119, 142);
-}
-
-.formulario{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    background-color: transparent;
-    color: rgb(50, 119, 142);
-}
-
-.label {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    background-color: transparent;
-    color: rgb(50, 119, 142);
+    color: green;
 }
 
 .botao {
