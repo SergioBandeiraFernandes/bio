@@ -1,0 +1,118 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1725408013619-e490825f0d97?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YyVDMyVBOXUlMjBudXZlbnN8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topo{
+    font-size: 50px;
+    border-bottom: 2px solid green;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: green;
+}
+
+span {
+    color: brown;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.menu_linha_do_tempo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link_imagem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem_biografia {
+    width: 80px;
+    height: auto;
+}
+
+.paragrafo_nascimento {
+    font-size: 14px;
+    color: blanchedalmond;
+}
+
+.titulo_tabela {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+}
+
+.estilo_tabela {
+    font-size: 14px;
+    font-family: fantasy;
+    color: blanchedalmond;
+}
+
+
+.borda_rodape {
+    border-top: 2px solid green;
+}
+
+.rodape {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: green;
+}
+
+.paragrafo_rodape {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(50, 119, 142); 
+}
+
+.link {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(50, 119, 142);
+}
+
+.formulario{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(50, 119, 142);
+}
+
+.label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(50, 119, 142);
+}
+
+.botao {
+    color: blue;
+    background-color: chartreuse;
+}

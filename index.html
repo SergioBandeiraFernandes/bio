@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografia - Sergio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="topo">
         Biografia - Sérgio
     </header>
     <section>
-        <h1>Linha do Tempo</h1>
-        <ul>
-            <li><a href="#nascimento">Nascimento</a></li><img src="https://i.pinimg.com/736x/d0/cc/0e/d0cc0ee448b6686a2d38b68ae5645696.jpg" alt="Nascimento">
-            <li><a href="#cronologia">Cronologia</a></li><img src="https://png.pngtree.com/element_our/20200701/ourlarge/pngtree-timeline-chart-image_2277309.jpg" alt="Linha do Tempo">
-        </ul>
-    </section>
+        <h1 class="titulo">Linha do Tempo</h1>
+        <div class="menu_linha_do_tempo">
+            <a class="link_imagem" href="#nascimento">Nascimento</a><img class="imagem_biografia" src="https://i.pinimg.com/736x/d0/cc/0e/d0cc0ee448b6686a2d38b68ae5645696.jpg" alt="Nascimento">
+        
+            <a class="link_imagem" href="#cronologia">Cronologia</a><img class="imagem_biografia" src="https://png.pngtree.com/element_our/20200701/ourlarge/pngtree-timeline-chart-image_2277309.jpg" alt="Linha do Tempo">
+        </div>
+        </section>
     <section id="nascimento">
-        <h2>Nascimento</h2>
-        <p>Sergio Fernandes, nasceu em <span>6 de Janeiro de 1988</span> na cidade do Rio de Janeiro no <span>Hospital Central do Exército.</span></p>
+        <h2 class="titulo">Nascimento</h2>
+        <p class="paragrafo_nascimento">Sergio Fernandes, nasceu em <span>6 de Janeiro de 1988</span> na cidade do Rio de Janeiro no <span>Hospital Central do Exército.</span></p>
     </section>
     <section id="cronologia">
-        <h2>Cronologia</h2>
-        <table>
+        <h2 class="titulo">Cronologia</h2>
+        <table class="estilo_tabela">
             <tr>
-                <th>Ano</th>
-                <th>Cidade</th>
-                <th>Vida Acadêmica</th>
-                <th>Situação Profissional</th>
-                <th>Fim do Cíclo</th>
+                <th class="titulo_tabela">Ano</th>
+                <th class="titulo_tabela">Cidade</th>
+                <th class="titulo_tabela">Vida Acadêmica</th>
+                <th class="titulo_tabela">Situação Profissional</th>
+                <th class="titulo_tabela">Fim do Cíclo</th>
             </tr>
             <tr>
                 <td>1988</td>
@@ -48,6 +50,7 @@
                 </td>
                 <td>-</td>
                 <td>2002</td>
+            </tr>
             <tr>
                 <td>2003</td>
                 <td>Rio de Janeiro/RJ</td>
@@ -63,7 +66,7 @@
             <tr>
                 <td>2007</td>
                 <td>Manaus/AM</td>
-                <td>Colégio Militar de Manaus - 2º ao 3º Ano</td>
+                <td>Colégio Militar de Manaus - CMM - 2º ao 3º Ano</td>
                 <td>-</td>
                 <td>2008</td>
             </tr>
@@ -177,7 +180,7 @@
                 <td>
                     <ul>
                         <li>Formado em MBA em Logística - FM2S</li>
-                        <li>Curso Programação - SCTEC</li>
+                        <li>Desenvolvimento de Software - SCTEC (Senai/SC)</li>
                     </ul>
                 </td>
                 <td>Analista de Gestão de Estoque</td>
@@ -186,32 +189,30 @@
             </tr>
         </table>
     </section>
-<footer>
-    <section>
-        <p>Entre em contato comigo para saber mais:</p>
-    </section>
-    <section>
-    <a href="mailto:eumesmo@gmail.com">Enviar E-mail</a> 
+<footer class="borda_rodape">
+        <p class="paragrafo_rodape">Entre em contato comigo para saber mais:</p>
+    <section class="rodape">
+    <a class="link"  href="mailto:eumesmo@gmail.com">Enviar E-mail</a> 
     <br>
-    <a href="tel:(48)99999-9999">Conversar</a>
+    <a class="link" href="tel:(48)99999-9999">Conversar</a>
     </section>
-    <section>
-    <p>Registre a sua visitas no site</p>
+    <section class="rodape">
+    <p class="paragrafo_rodape">Registre a sua visitas no site</p>
     <br>
-    <form action="">
-        <label for="">Nome:</label>
+    <form class="formulario" action="">
+        <label class="label" for="">Nome:</label>
         <br>
         <input type="text">
         <br>
-        <label for="">Idade</label>
+        <label class="label" for="">Idade</label>
         <br>
         <input type="text">
         <br>
-        <label for="">Cidade</label>
+        <label class="label" for="">Cidade</label>
         <br>
         <input type="text">
         <br>
-        <input type="submit" value="Enviar">
+        <input class="botao" type="submit" value="Enviar">
     </form>
     </section>
 </footer>
