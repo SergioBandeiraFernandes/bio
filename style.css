@@ -68,12 +68,21 @@ span {
 .estilo_tabela {
     font-size: 14px;
     font-family: fantasy;
-    margin-left: 100px;
+    margin: 0 auto;
+    border-collapse: collapse;
     margin-bottom: 30px;
     border: 1px solid green;
+    padding: 8px;
     border-radius: 4px;
     color: blanchedalmond;
     text-align: center;
+}
+
+th, td {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid green;
+    padding: 8px;
 }
 
 
